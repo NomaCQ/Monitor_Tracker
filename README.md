@@ -39,6 +39,17 @@ Lists all present students that are able to book monitors, student information i
 
 ## Testing
 
+To ensure the functionality is working correctly, you can run the unit tests for the booking system.
+
+### Unit Tests
+Test Week Start Logic: Tests if the week_start() function correctly determines the start of a week and handles the transition at 18:00 on Friday.
+
+
+To run the tests:
+
+```bash
+python -m unittest discover
+``` 
 ## Acknowledgements and Contacts
 
 **Author**: Nomawonga Chinna Qwele
