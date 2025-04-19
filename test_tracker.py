@@ -1,6 +1,6 @@
 import unittest
 from datetime import datetime, timedelta
-from tracker import week_start, get_csv_as_dict, create_bookings, booking_allowed, save_booking, update_today_booking
+from tracker import week_start, booking_allowed, save_booking, update_today_booking
 
 class TestMonitorTracker(unittest.TestCase):
 
